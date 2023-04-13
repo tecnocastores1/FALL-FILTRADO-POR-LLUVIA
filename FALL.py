@@ -9,7 +9,7 @@ import time
 sensor1 = HCSR04(trigger_pin=5, echo_pin=18, echo_timeout_us=10000)
 sensor2 = HCSR04(trigger_pin=17, echo_pin=16, echo_timeout_us=10000)
 sensor3 = HCSR04(trigger_pin=2, echo_pin=15, echo_timeout_us=10000)
-sensor4 = HCSR04(trigger_pin=25, echo_pin=26, echo_timeout_us=10000)
+sensor4 = HCSR04(trigger_pin=26, echo_pin=25, echo_timeout_us=10000)
 
 #Sensor de luvia
 rain_analog1 = 34 
