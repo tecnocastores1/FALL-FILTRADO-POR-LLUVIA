@@ -82,11 +82,12 @@ while True:
     print('t', end='')
     print(rain_digital_val4)
     
-    #1 = servo encnendido
-    #0 = sevo a a 0° grados
+    #1 = servo on 
+    #0 = servo 0° degrees
     
-    #1 no esta lloviendo
-    #0 si llueve
+    #1 it's not raining
+    #0 if it rains
+    
     if(contenedor1 <= 13 and contenedor1>=0):
         Led1.value(0)
         if(rain_digital_val1 == 1 and rain_digital_val2 == 1 and rain_digital_val3 == 1 and rain_digital_val4 ==1)
